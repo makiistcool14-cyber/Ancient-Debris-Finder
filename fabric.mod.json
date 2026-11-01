@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "debris-finder",
+  "version": "${version}",
+  "name": "Ancient Debris Finder",
+  "description": "Singleplayer Nether seed-based Ancient Debris prediction, confirmed-block scanning and Baritone-driven auto-mining with hazard stops.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.debrisfinder.DebrisFinderMod"] },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*",
+    "baritone-meteor": "*"
+  }
+}
